@@ -20,6 +20,7 @@
     margin-top: 20px;
     width: 150px;
     padding-bottom: 20px;
+    margin-right: 150px;
 }
 
 .header-logo:hover {
@@ -27,8 +28,20 @@
     opacity: 0.8;
 }
 
+.social-img{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    width: 50px;
+}
+
+.social-img:hover{
+    background-color: #000000;
+    opacity: 0.6;
+}
+
 .menu {
-    margin-right: 100px;
+    text-align: center;
     margin-top: 50px;
     width: 690px;
 }
@@ -62,7 +75,7 @@
 }
 
 .underheader{
-    background-image: url("/img/86f23fc62d9669a8250ba6ebcfc9c635.png");
+    background-image: url("/img/background (2).png");
     position: fixed;
     top: 0;
     left: 0;
@@ -96,5 +109,5 @@
   right: 0;
   left: 0;
   bottom: 0;
-  opacity: 0.4;
+  opacity: 0.35;
 }

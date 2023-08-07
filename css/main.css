@@ -8,15 +8,22 @@ main {
     padding: 50px;
 }
 
-.backgrnd{
+.content {
+    position: absolute;
+    top: 350px;
+    left: 0;
+    right: 0;
     background-color: #141414;
+    max-width: 1200px;
+    display: flex;
+    padding-right: 150px;
+    margin: 50px auto;
 }
 
 .news-main{
     width: 780px;
     position: relative;
-    margin-left: 70px;
-    margin-top: 350px;
+    margin-left: 0px;
     padding-top: 30px;
     padding-right: 15px;
     padding-left: 25px;
@@ -42,6 +49,7 @@ main {
     font-weight: 700;
     margin-bottom: 20px;
     font-size: 30px;
+    text-transform: uppercase;
 }
 
 .news-main-header{
